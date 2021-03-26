@@ -1,0 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+public class EnemyUIManager : MonoBehaviour
+{
+    public Slider hpSlider;
+
+    public void Update(int hp) {
+        hpSlider.value = hp;
+    }
+}

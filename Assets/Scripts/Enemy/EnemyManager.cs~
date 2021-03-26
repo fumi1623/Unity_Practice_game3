@@ -1,0 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.AI;
+
+
+//Playerを追跡
+public class EnemyManager : MonoBehaviour
+{
+    public Transform target;
+    NavMeshAgent agent;
+
+    void Start()
+    {
+        
+    }
+
+
+    void Update()
+    {
+        
+    }
+}
