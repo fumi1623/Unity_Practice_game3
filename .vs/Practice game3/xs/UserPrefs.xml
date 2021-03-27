@@ -1,25 +1,37 @@
 ﻿<Properties StartupConfiguration="{59DA48FD-FB79-B529-83E3-2B8F5CC08CC7}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LookAtCamara.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player/PlayerManager.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerManager.cs" Line="21" Column="36" IsPinned="True" />
-      <File FileName="Assets/Scripts/Enemy/EnemyManager.cs" Line="22" Column="35" />
+      <File FileName="Assets/Scripts/Player/PlayerManager.cs" Line="64" Column="27" />
+      <File FileName="Assets/Scripts/Enemy/EnemyManager.cs" Line="40" Column="23" />
       <File FileName="Assets/Scripts/Player/PlayerAttackBehaviour.cs" Line="38" Column="2" />
-      <File FileName="Assets/Scripts/Damager.cs" Line="7" Column="23" />
-      <File FileName="Assets/Scripts/Player/PlayerUIManager.cs" Line="13" Column="32" />
-      <File FileName="Assets/Scripts/Enemy/EnemyUIManager.cs" Line="10" Column="5" />
+      <File FileName="Assets/Scripts/Damager.cs" />
+      <File FileName="Assets/Scripts/Player/PlayerUIManager.cs" Line="17" Column="56" />
+      <File FileName="Assets/Scripts/Enemy/EnemyUIManager.cs" Line="19" Column="36" />
       <File FileName="Assets/Scripts/LookAtCamara.cs" Line="7" Column="5" />
+      <File FileName="Assets/Scripts/Enemy/EnemyAttackBehaviour.cs" Line="12" Column="62" />
+      <File FileName="Assets/Scripts/TitleSceneManager.cs" Line="11" Column="44" />
+      <File FileName="Assets/Scripts/Player/PlayerHurtBehaviour.cs" Line="14" Column="69" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Practice game3" expanded="True" selected="True" />
+          <Node name="Practice game3" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Enemy" expanded="True" />
+                <Node name="Player" expanded="True">
+                  <Node name="PlayerManager.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4a6bb914-728d-48a5-9ae9-b70067e6d6e2" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="5b606aff-acf1-4b94-ab52-2b40fefd74a1" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

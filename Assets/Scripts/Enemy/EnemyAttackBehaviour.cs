@@ -8,6 +8,8 @@ public class EnemyAttackBehaviour : StateMachineBehaviour
     //OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
         animator.GetComponent<NavMeshAgent>().speed = 0;
+        //Playerの方向を向く関数
+        animator.GetComponent<EnemyManager>().LookAtTarget();
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks

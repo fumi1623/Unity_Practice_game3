@@ -33,7 +33,14 @@ public class EnemyManager : MonoBehaviour
     {
         agent.destination = target.position;
         animator.SetFloat("Distance", agent.remainingDistance);
+        
     }
+
+    public void LookAtTarget() {
+        //Playerの方向を向く
+        transform.LookAt(target);
+    }
+
 
     //武器の判定を有効・無効にする
     public void HideColliderWeapon() {
